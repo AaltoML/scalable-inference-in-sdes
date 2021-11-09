@@ -1,0 +1,75 @@
+# Exclude TeX temporary working files
+*.acn
+*.acr
+*.alg
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.fdb_latexmk
+*.glg
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.ist
+*.lof
+*.log
+*.lot
+*.maf
+*.mtc
+*.mtc0
+*.nav
+*.nlo
+*.out
+*.pdfsync
+*.ps
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.xdy
+*.tdo
+*.dpth
+*.auxlock
+*.dep
+*.brf
+
+# Exclude backup files freated by e.g. Matlab and Emacs
+*~
+
+# Exclude system specific thumbnail and other folder metadata
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+codes/.vscode
+
+# Exclude externalisation results from tikz
+tikz*.pdf
+*.md5
+*.spl
+
+*.lock
+*.bin
+*.iml
+
+# tmp files
+.idea/
+__pycache__/
+.ipynb_checkpoints/
+
+# Exclude pdf
+*.pdf
+
+# Exclude output files
+output/
+data/walking
+model/
+model_data/
+tmp/

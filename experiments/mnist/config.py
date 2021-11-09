@@ -1,0 +1,10 @@
+vae_epochs = 300
+gp_epochs = 50
+n_angle = 64
+output_path = r"output/"
+latent_dim = 16
+dt = 0.1
+end_t = 64
+euler_trajectories = 1000
+n_train = 180
+n_test = 20

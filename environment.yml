@@ -1,0 +1,22 @@
+name: scalable-sde
+channels:
+  - conda-forge
+  - anaconda
+dependencies:
+  - python=3.6
+  - numpy==1.19.5
+  - pip
+  - matplotlib==3.1.1
+  - jupyter==1.0.0
+  - pip:
+      - scikit-learn==0.21.3
+      - scikit-image==0.15.0
+      - tensorflow==2.4
+      - tensorflow-estimator==2.4.0
+      - tensorflow-probability==0.11.0
+      - torchsummary==1.5.1
+      - gpflow==2.3.0
+      - torch==1.9.1
+      - scipy==1.5.4
+      - torchvision==0.10.1
+      - git+https://github.com/titu1994/tfdiffeq
