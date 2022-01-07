@@ -14,7 +14,7 @@ pip install -r requirements.txt
 Alternatively, conda virtual environment can be created using the `environment.yml` file
 
 ```bash
-conda create env -f environment.yml
+conda env create -f environment.yml
 conda activate scalable-sde
 ```
 
